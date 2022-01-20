@@ -1,0 +1,88 @@
+.creatures_sec{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.creatures_sec h2{
+    margin-bottom: 36px;
+}
+.column{
+    flex-direction: column;
+}
+.creatures{
+    background-image: url(../../../assets/images/Creatures.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    overflow-x: hidden;
+}
+.creatures:after{
+    content: url(../../../assets/images/line.svg);
+    display: block;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.info{
+    padding: 30px 35px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #5E17EB;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    border-radius: 21px;
+    z-index: 10;
+    transition: all .5s;
+}
+h6{
+    margin-bottom: 18px;
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 60px;
+    background: #5E17EB;
+    border-radius: 12px;
+    z-index: 10;
+}
+.info:hover{
+    background: #5E17EB;
+}
+.orange .num, .orange .info:hover{
+    background: #FF6900;
+}
+.orange .info {
+    border-color: #FF6900;
+}
+@media (max-width: 1300px){
+    .creatures:after{
+        left: -100px;
+    }
+}
+@media (max-width: 1200px){
+    .order_1{
+        order: 3;
+    }
+    .order_3{
+        order: 1;
+    }
+    .order_2{
+        order: 2;
+    }
+    .creatures{
+        padding-top: 30px;
+    }
+    .creatures:after{
+        display: none;
+    }
+    .column{
+        flex-direction: column-reverse;
+    }
+    .num{
+        margin-top: 20px;
+    }
+}

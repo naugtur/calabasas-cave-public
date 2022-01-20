@@ -1,0 +1,28 @@
+.banner{
+    background-image: url(../../../assets/images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 130px;
+}
+.header_title{
+    margin-bottom: 40px;
+}
+
+.banner h3{
+    margin-bottom: 40px;
+}
+.banner button{
+    padding: 20px 35px;
+    margin-top: 43px;
+}
+@media (max-width: 1200px){
+    .banner{
+        height: auto;
+    }
+    .banner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

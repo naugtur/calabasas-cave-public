@@ -1,0 +1,25 @@
+.soc_icons{
+    list-style-type: none;
+    padding: 0;
+}
+
+.soc_icons li{
+    margin-left: 27px;
+}
+
+.soc_icons li img{
+    max-height: 17.33px;
+    width: auto;
+}
+@media (max-width: 991px){
+    .soc_icons li{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .soc_icons li{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

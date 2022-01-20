@@ -1,0 +1,26 @@
+.info_card{
+    padding: 46px 46px 46px 109px;
+    margin: 55px 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    border-radius: 21px;
+}
+.info_card h2{
+    max-width: 413px;
+    margin-bottom: 36px;
+}
+@media (max-width: 1399px){
+    .info_card{
+        padding: 45px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .info_card{
+        padding: 46px;
+    }
+}
+@media (max-width: 575px){
+    .info_card{
+        padding: 46px;
+    }
+}

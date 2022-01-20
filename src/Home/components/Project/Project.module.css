@@ -1,0 +1,14 @@
+.project_sec{
+    background-image: url(../../../assets/images/project.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_block{
+    max-width: 965px;
+}
+@media (max-width: 1200px){
+    .text_block {
+        max-width: 100%;
+    }
+}

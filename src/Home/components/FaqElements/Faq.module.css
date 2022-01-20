@@ -1,0 +1,16 @@
+.section_title{
+    padding: 0 110px;
+    margin-bottom: 78px;
+}
+
+.section_title h2{
+    margin-bottom: 42px;
+}
+.faq_sec{
+    margin-bottom: 200px;
+}
+@media (max-width: 991px){
+    .section_title{
+        padding: 0;
+    }
+}

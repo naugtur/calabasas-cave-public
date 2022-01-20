@@ -1,0 +1,26 @@
+.specials_sec{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.specials_sec h2{
+    margin-bottom: 83px;
+}
+.card{
+    padding: 14px;
+}
+.card h3{
+    color: #FF6900;
+    margin-top: 27px;
+    text-align: center;
+}
+.img{
+    width: 304px;
+    height: 524px;
+    object-fit: cover;
+    border-radius: 21px;
+}
+@media (max-width: 575px){
+    .img {
+        width: 100%;
+    }
+}
