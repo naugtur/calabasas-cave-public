@@ -5,6 +5,10 @@ html {
 a{
     text-decoration: none;
 }
+
+iframe {
+    display: none;
+}
 ul, ol{
     /*padding: 0;*/
     margin: 0;
