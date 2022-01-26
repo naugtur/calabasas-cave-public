@@ -46,6 +46,8 @@ const Countdown = () => {
       }
   },[]);
 
+  if(!contractDetails) return null;
+
   const { price } = contractDetails;
 
   return (
