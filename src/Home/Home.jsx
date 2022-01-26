@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "./components/Navbar/Navbar"
 import Heading from "./components/Heading/Heading"
 import Carousel from "./components/Carousel/Carousel"
-// import Countdown from "./components/Countdown/Countdown"
+import Countdown from "./components/Countdown/Countdown"
 import Project from "./components/Project/Project"
 import Specials from "./components/Specials/Specials";
 import Roadmap from "./components/Roadmap/Roadmap";
@@ -16,7 +16,7 @@ const Home = () =>{
             <Navbar/>
             <Heading/>
             <Carousel/>
-            {/* <Countdown/> */}
+            <Countdown/>
             <Project/>
             <Specials/>
             <Roadmap/>

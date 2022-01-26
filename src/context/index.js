@@ -14,8 +14,8 @@ const injected = new InjectedConnector({
 // Contract Address on NET
 // Test Contract URL https://rinkeby.etherscan.io/address/0x5bf028f4d045667a94b8c16e315249d2faca008a#code
 // Mainnet URL 
-const CONTRACT_ADDRESS = '0x5bF028F4d045667a94b8C16e315249D2fACa008A';
-const CORRECT_NET_ID = 4;
+const CONTRACT_ADDRESS = '0x73cd85c3764D4937743a28FB42E8E9E1CF87E8Ed';
+const CORRECT_NET_ID = 1;
 
 
 export const DAppContext = createContext(null);

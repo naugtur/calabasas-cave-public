@@ -14,7 +14,6 @@ const Heading = () => {
               className={classes.header_title}
               alt="Calabasas Cave"
             />
-            {/*<p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>*/}
             <a
               href="https://discord.gg/hUtQRkqX"
               target="_blank"

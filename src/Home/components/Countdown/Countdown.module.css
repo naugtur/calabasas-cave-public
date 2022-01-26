@@ -17,6 +17,7 @@
     margin: 0 25px;
 }
 .num{
+    min-width: 60px;
     margin-bottom: 0;
     margin-right: 16px;
 }

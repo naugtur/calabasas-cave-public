@@ -20,7 +20,7 @@ const Countdown = () => {
   } = useContext(DAppContext);
 
   useEffect(() =>{
-      let countDownDate = new Date("Jan 18, 2022 2:41:00").getTime();
+      let countDownDate = new Date(Date.UTC(2022, 1, 1, 14, 0, 0)).getTime();
 
       let interval = setInterval(function() {
 
@@ -46,17 +46,7 @@ const Countdown = () => {
       }
   },[]);
 
-  if (!contractDetails) return null;
-
-  const { price, saleIsClosed } = contractDetails;
-
-  if (saleIsClosed) {
-    return (
-      <div className="bg-white d-inline-block p-2 mb-3">
-        <h4 className="txt-danger m-0">Sale has not started yet</h4>
-      </div>
-    );
-  }
+  const { price } = contractDetails;
 
   return (
     <section className={classes.banner}>
