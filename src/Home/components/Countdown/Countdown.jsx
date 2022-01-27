@@ -46,10 +46,6 @@ const Countdown = () => {
       }
   },[]);
 
-  if(!contractDetails) return null;
-
-  const { price } = contractDetails;
-
   return (
     <section className={classes.banner}>
       <div className="container section_container">
@@ -64,7 +60,7 @@ const Countdown = () => {
                   <div
                     className={`d-flex flex-wrap ${classes.counter_container}`}
                   >
-                    <h6>{price} ETH Each</h6>
+                    <h6>{contractDetails?.price || '0.06'} ETH Each</h6>
                     <div className={classes.counter}>
                       <button
                         onClick={() => setCount(count >= 1 ? --count : count)}
