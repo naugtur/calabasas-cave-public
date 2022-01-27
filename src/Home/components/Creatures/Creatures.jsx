@@ -12,10 +12,10 @@ const Creatures = () =>{
                     <div className="row">
                         <div className={`col-lg-12 col-xl-3 d-flex flex-lg-column-reverse flex-xl-column align-items-center ${classes.column}`}>
                             <h6 className={`${classes.info} ${classes.order_2}`}>
-                                Buy land in sandbox metaverse for Caverium mansion.
+                                BUY LAND IN SANDBOX METAVERSE. 
                             </h6>
                             <h6 className={`${classes.info} ${classes.order_3}`}>
-                                Release voxel sandbox art. Free to claim just pay gas-3D cavemen.
+                                RELEASE 3D CAVEMAN VOXEL ART, FREE TO CLAIM JUST PAY GAS
                             </h6>
                             <h3 className={`${classes.num} ${classes.order_1}`}>01</h3>
                         </div>
