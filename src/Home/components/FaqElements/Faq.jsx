@@ -18,7 +18,7 @@ const Faq = () =>{
         {
             buttonId: "collapseTwo",
             title: "What is Calabasas Cave Creatures?",
-            text: "Mad Rabbits Riot Club is a collection of 7,777 unique NFTs that are generated randomly using a " +
+            text: "Calabasas Cave Creatures is a collection of 7,777 unique NFTs that are generated randomly using a " +
                 "pre-defined set of traits. Once you own one you'll have the exclusive rights to use the artwork as your" +
                 " digital identity, meaning feel free to use it as your profile picture and express yourself! Later on," +
                 " some special events will occur where you may be able to further the identity of your Cave Creature." +
