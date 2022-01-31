@@ -15,8 +15,8 @@ const Home = () =>{
         <>
             <Navbar/>
             <Heading/>
-            <Carousel/>
             <Countdown/>
+            <Carousel/>
             <Project/>
             <Specials/>
             <Roadmap/>
