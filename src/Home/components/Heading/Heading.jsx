@@ -15,7 +15,7 @@ const Heading = () => {
               alt="Calabasas Cave"
             />
             <a
-              href="https://discord.gg/hUtQRkqX"
+              href="https://discord.gg/NmCcAKR6NM"
               target="_blank"
               rel="noopener noreferrer"
               className="btn more_btn"
