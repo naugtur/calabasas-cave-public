@@ -69,7 +69,7 @@ const Countdown = () => {
                       </button>
                       <span>{count}</span>
                       <button
-                        onClick={() => setCount(count < 20 ? ++count : count)}
+                        onClick={() => setCount(count < (contractDetails?.maxAllowedTokensPerPurchase || 20) ? ++count : count)}
                       >
                         +
                       </button>
