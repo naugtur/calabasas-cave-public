@@ -84,7 +84,7 @@ const Countdown = () => {
                     ) : (
                       <button
                           className={`more_btn ${classes.counter_btn}`}
-                          onClick={() => mint(count)}
+                          onClick={() => !contractDetails?.isPublicSaleActive &&  !contractDetails?.isPresaleActivated ? alert('Sale has not started yet')  : mint(count)}
                         >
                           mint
                         </button>
